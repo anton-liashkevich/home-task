@@ -11,7 +11,6 @@
 	padding-right: 15px;
 	margin: 0 auto;
 	max-width: 100%;
-
 }
 
 .title {
@@ -26,9 +25,7 @@
 .title-one {
 	display: inline-block;
 	text-align: center;
-	margin-left: 170px;
-	margin-right: 170px;
-	width: 1118px;
+	width: 100%;
 }
 
 .separator {
@@ -98,8 +95,7 @@
 }
 
 .content-body {
-	display: inline-block;
+	display: flex;
 	text-align: center;
-	margin-left: 170px;
-	margin-right: 170px;
+	max-width: 100%;
 }
