@@ -477,7 +477,7 @@ nav {
 	width: 100%;
 }
 
-.body {
+.pricing {
 	background-color: #F5F5F5;
 	max-width: 1505px;
 	max-height: 1020px;
@@ -504,12 +504,11 @@ nav {
 	padding: 60px;
 }
 
-hr {
+.separator-pricing {
 	width: 170px;
 	height: 0px;
-	display: inline-block;
-	margin-left: 670px;
-	border: 1px solid #EC7979
+	border-bottom: 1px solid rgba(236, 121, 121, 1);
+	margin: 0px 670px;
 }
 
 .subtitle {
