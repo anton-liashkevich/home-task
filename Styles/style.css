@@ -7,6 +7,209 @@
 	box-sizing: border-box;
 }
 
+header {
+	width: 1510px;
+	height: 1026px;
+	background: rgba(0, 0, 0, 0.5) url("../background/image fon-one.jpg");
+	background-blend-mode: darken;
+}
+
+.row {
+	background-color: #000000;
+	width: 1510px;
+	height: 75px;
+	position: relative;
+}
+
+nav {
+	display: inline-block;
+	width: 565px;
+	height: 75px;
+	position: absolute;
+	margin-left: 471px;
+	padding-top: 30px;
+}
+
+.link {
+	display: inline-block;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+	color: #FFFFFF;
+	width: 100px;
+	height: 75px;
+	text-decoration: none;
+}
+
+.logotip-one {
+	margin-left: 116px;
+}
+
+.logotip-two {
+	display: inline-block;
+	width: 270px;
+	height: 100px;
+	margin: 208px 430px 51px 170px;
+}
+
+.title-header {
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 56px;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 1);
+	width: 670px;
+	height: 168px;
+	margin: 0 30px 55px 170px;
+	display: inline-block;
+}
+
+.separator-one {
+	border-top: 1px solid rgba(255, 255, 255, 1);
+	width: 170px;
+	height: 0px;
+	margin: 0 530px 42px 170px;
+	display: inline-block;
+}
+
+.text-header {
+	width: 270px;
+	height: 42px;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: rgba(255, 255, 255, 1);
+	margin: 0 430px 42px 170px;
+}
+
+.button-header {
+	width: 270px;
+	height: 58px;
+	margin: 0px 1070px 185px 170px;
+	background-color: inherit;
+	border: 1px solid rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 1);
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+
+.button-header :focus,
+.button-header:hover {
+	background-color: rgba(255, 255, 255, 0.103);
+}
+
+.form-header {
+	position: absolute;
+	display: inline-block;
+	width: 470px;
+	height: 450px;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 10px;
+	margin-top: 208px;
+	margin-left: 870px;
+	z-index: 9;
+}
+
+.title-form {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
+	text-transform: uppercase;
+	color: #333333;
+	display: inline-block;
+	width: 367px;
+	height: 90px;
+	margin: 0 52px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.color-text {
+	display: inline-block;
+	color: #EC7979;
+}
+
+.form__input-header {
+	border: none;
+	border-bottom: 1px solid rgba(189, 189, 189, 1);
+	outline: none;
+	width: 370px;
+	padding-bottom: 10px;
+	background-color: transparent;
+	transition: 0.3s;
+}
+
+.form__label-header {
+	position: absolute;
+	left: 0;
+	z-index: -1;
+	color: #BDBDBD;
+	transition: 0.3s;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	transition: 0.3s;
+}
+
+.form__input-header:focus {
+	border-bottom: 1px solid rgb(26, 25, 25);
+}
+
+.form__input-header:focus~.form__label-header {
+	top: -18px;
+	font-size: 12px;
+}
+
+.form__group-header-one {
+	position: relative;
+	margin: 45px 50px 0;
+}
+
+.form__group-header-two {
+	position: relative;
+	margin: 33px 50px 0;
+}
+
+.form__group-header-three {
+	position: relative;
+	margin: 33px 50px 101px;
+}
+
+.btn-header {
+	width: 470px;
+	height: 60px;
+	background: #EC7979;
+	border-radius: 0px 0px 10px 10px;
+	position: absolute;
+	cursor: pointer;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+
+.btn-header:focus,
+.btn-header:hover {
+	background-color: #ec7979cc;
+}
+
 .tabs {
 	font-size: 0;
 }
@@ -470,7 +673,7 @@ li {
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 33px;
-	color: #0000000;
+	color: #000000;
 }
 
 .maneger {
@@ -675,7 +878,6 @@ li {
 .form__texterea:focus {
 	border-bottom: 1px solid #888787;
 }
-
 
 .form__label-info {
 	position: absolute;
