@@ -1,0 +1,44 @@
+.Social_Media {
+	width: 1510px;
+	height: 140px;
+	background-color: rgba(248, 239, 239, 1);
+	position: relative;
+}
+
+.link-icon {
+	display: flex;
+	justify-content: space-between;
+	width: 560px;
+	margin: 38px 183px 43px 690px;
+	position: absolute;
+}
+
+.title-social-media {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
+	display: flex;
+	align-items: center;
+	text-transform: capitalize;
+	color: #333333;
+	margin: 0 870px 78px 170px;
+	position: absolute;
+	padding-top: 10px;
+}
+
+.text-social-madia {
+	position: absolute;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	align-items: center;
+	color: #86878B;
+	width: 470px;
+	height: 42px;
+	margin: 80px 870px 18px 170px;
+}
