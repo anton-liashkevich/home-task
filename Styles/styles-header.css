@@ -174,7 +174,8 @@ nav {
 	border-bottom: 1px solid rgb(26, 25, 25);
 }
 
-.form__input-header:focus~.form__label-header {
+.form__input-header:focus~.form__label-header,
+.form__input-header:not(:placeholder-shown)~.form__label-header {
 	top: -18px;
 	font-size: 12px;
 }
