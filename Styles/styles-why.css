@@ -53,13 +53,21 @@
 	height: 390px;
 }
 
-.icon {
-	max-width: 160px;
-	max-width: 160px;
+.icon-wrapper {
+	width: 170px;
+	height: 170px;
 	display: inline-block;
 }
 
+.icon {
+	display: inline-block;
+	width: 92px;
+	height: 92px;
+	margin: 39px;
+}
+
 .title-h4 {
+	display: inline-block;
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 700;
@@ -69,6 +77,11 @@
 	color: #000000;
 	width: 370px;
 	height: 100px;
+}
+
+.desc-info {
+	width: 370px;
+	height: 105px;
 }
 
 .desc-text {
@@ -85,4 +98,162 @@
 .content-body {
 	display: flex;
 	text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+	.block-why {
+		display: inline-block;
+		max-width: 992px;
+		max-height: 518px;
+		margin: 50px 16px 58px;
+	}
+
+	.title-one {
+		display: inline-block;
+		text-align: center;
+		width: 1024px;
+		height: 190px;
+	}
+
+	.title-h2 {
+		font-size: 24px;
+		line-height: 24px;
+		margin: 40px 170px;
+	}
+
+	.separator {
+		width: 142px;
+		height: 0;
+		margin: 0 auto;
+	}
+
+	.desc {
+		font-size: 14px;
+		line-height: 26px;
+		display: inline;
+		margin-top: 9px;
+		text-align: center;
+	}
+
+	.desc-slogan {
+		margin: 32px 20px 65px;
+	}
+
+	.content {
+		display: inline-block;
+		width: 318px;
+		height: 310px;
+	}
+
+	.icon-wrapper {
+		width: 147px;
+		height: 147px;
+	}
+
+	.icon {
+		width: 79px;
+		height: 79px;
+	}
+
+	.title-h4 {
+		font-size: 18px;
+		line-height: 25px;
+		width: 317px;
+		height: 60px;
+	}
+
+	.desc-info {
+		width: 317px;
+		height: 80px;
+	}
+
+	.desc-text {
+		font-size: 14px;
+		line-height: 16px;
+		margin-top: 9px;
+		width: 318px;
+		height: 80px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.block-why {
+		width: 288px;
+		height: 1199px;
+		margin: 0px 16px 60px;
+	}
+
+	.title-one {
+		display: inline-block;
+		text-align: center;
+		width: 288px;
+		height: 175px;
+	}
+
+	.title-h2 {
+		font-size: 18px;
+		line-height: 21px;
+		margin: 20px 0;
+	}
+
+	.separator {
+		width: 134px;
+		height: 0;
+		margin: 0 auto;
+	}
+
+	.desc {
+		margin: 25px 16px 83px;
+		text-align: center;
+		width: 288px;
+		height: 30px;
+	}
+
+	.desc-slogan {
+		margin: ;
+	}
+
+	.content {
+		display: block;
+		width: 288px;
+		height: 318px;
+	}
+
+	.content-body {
+		width: 322px;
+		height: 984px;
+		display: block;
+	}
+
+	.icon-wrapper {
+		width: 147px;
+		height: 147px;
+		margin: 0px 88px 0;
+	}
+
+	.icon {
+		width: 79px;
+		height: 79px;
+		margin: 33px;
+	}
+
+	.title-h4 {
+		width: 288px;
+		height: 30px;
+		font-size: 18px;
+		line-height: 25px;
+		text-align: center;
+	}
+
+	.desc-info {
+		width: 288px;
+		height: 35px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.desc-text {
+		font-size: 14px;
+		line-height: 16px;
+	}
 }
