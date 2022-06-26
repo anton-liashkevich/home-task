@@ -70,3 +70,93 @@
 .btn-2:hover {
 	background-color: #465c7ca0;
 }
+
+@media screen and (max-width: 1024px) {
+	.design {
+		width: 1024px;
+		height: 358px;
+		background-size: cover;
+	}
+
+	.title-5 {
+		font-size: 24px;
+		line-height: 28px;
+		width: 992px;
+		height: 120px;
+		margin: 50px 16px 0;
+		padding: 40px;
+	}
+
+	.separator-5 {
+		width: 142px;
+		margin: 0px 441px;
+	}
+
+	.text-slogan-three {
+		width: 992px;
+		height: 14px;
+		font-size: 16px;
+		line-height: 16px;
+		margin: 32px 16px;
+	}
+
+	.button-2 {
+		width: 318px;
+		height: 58px;
+	}
+
+	.btn-2 {
+		color: #FFFFFF;
+		width: 318px;
+		height: 58px;
+		font-size: 18px;
+		line-height: 25px;
+		margin: 0 353px 50px;
+	}
+
+}
+
+@media screen and (max-width: 340px) {
+	.design-mini {
+		width: 320px;
+		height: 358px;
+		background: rgba(0, 0, 0, 0.5) url("../background/image-mini.svg");
+		background-blend-mode: darken;
+	}
+
+	.title-5 {
+		font-size: 24px;
+		line-height: 28px;
+		width: 288px;
+		height: 120px;
+		margin: 0px 16px 0;
+		padding: 0;
+		display: flex;
+		align-items: center;
+	}
+
+	.separator-5 {
+		width: 134px;
+		height: 0px;
+		margin: 0px 93px;
+	}
+
+	.text-slogan-three {
+		width: 288px;
+		height: 48px;
+		font-size: 14px;
+		line-height: 16px;
+		margin: 16px 16px 66px;
+	}
+
+	.button-2 {
+		width: 287px;
+		height: 50px;
+	}
+
+	.btn-2 {
+		width: 287px;
+		height: 50px;
+		margin: 0 17px 58px;
+	}
+}

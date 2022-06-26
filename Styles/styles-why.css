@@ -1,7 +1,7 @@
 .block-why {
 	display: inline-block;
-	max-width: 1170px;
-	max-height: 700px;
+	width: 1170px;
+	height: 700px;
 	margin: 50px 170px 58px;
 }
 
@@ -103,8 +103,8 @@
 @media screen and (max-width: 1024px) {
 	.block-why {
 		display: inline-block;
-		max-width: 992px;
-		max-height: 518px;
+		width: 992px;
+		height: 518px;
 		margin: 50px 16px 58px;
 	}
 
@@ -176,84 +176,80 @@
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
 	.block-why {
 		width: 288px;
 		height: 1199px;
-		margin: 0px 16px 60px;
+		margin: 50px 16px 0px;
 	}
 
 	.title-one {
 		display: inline-block;
 		text-align: center;
 		width: 288px;
-		height: 175px;
+		height: 150px;
 	}
 
 	.title-h2 {
 		font-size: 18px;
 		line-height: 21px;
-		margin: 20px 0;
+		margin: 0px 16px 0px;
 	}
 
 	.separator {
 		width: 134px;
-		height: 0;
 		margin: 0 auto;
 	}
 
 	.desc {
-		margin: 25px 16px 83px;
-		text-align: center;
-		width: 288px;
-		height: 30px;
+		font-size: 13px;
+		line-height: 15px;
+		margin: 25px 16px 50px;
 	}
 
 	.desc-slogan {
-		margin: ;
-	}
-
-	.content {
-		display: block;
-		width: 288px;
-		height: 318px;
+		margin: 25px 16px 50px;
 	}
 
 	.content-body {
-		width: 322px;
-		height: 984px;
-		display: block;
+		display: flex;
+		flex-wrap: wrap;
+		width: 288px;
+	}
+
+	.content {
+		display: inline-block;
+		width: 318px;
+		height: 310px;
 	}
 
 	.icon-wrapper {
 		width: 147px;
 		height: 147px;
-		margin: 0px 88px 0;
 	}
 
 	.icon {
 		width: 79px;
 		height: 79px;
-		margin: 33px;
 	}
 
 	.title-h4 {
-		width: 288px;
-		height: 30px;
 		font-size: 18px;
 		line-height: 25px;
-		text-align: center;
+		width: 317px;
+		height: 60px;
 	}
 
 	.desc-info {
-		width: 288px;
-		height: 35px;
-		text-align: center;
-		margin-bottom: 10px;
+		width: 317px;
+		height: 80px;
 	}
 
 	.desc-text {
 		font-size: 14px;
 		line-height: 16px;
+		margin-top: 9px;
+		width: 318px;
+		height: 80px;
 	}
 }

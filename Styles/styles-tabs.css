@@ -128,3 +128,140 @@
 .btn:hover {
 	background-color: #ec79798a;
 }
+
+@media screen and (max-width: 1024px) {
+	.tabs {
+		font-size: 0;
+		margin-top: 50px;
+	}
+
+	.tabs>div {
+		width: 992px;
+		height: 386px;
+		margin: 0px 16px;
+	}
+
+	.tabs>label {
+		top: 1px;
+		width: 156px;
+		height: 40px;
+		padding: 10px 55px;
+	}
+
+	.tab1 {
+		margin-top: 50px;
+		margin-left: 16px;
+	}
+
+	.tab2 {
+		margin-top: 50px;
+	}
+
+	.tab3 {
+		margin-top: 50px;
+	}
+
+	.image-one {
+		width: 398px;
+		height: 385px;
+		margin-left: 611px;
+	}
+
+	.title {
+		font-size: 24px;
+		line-height: 33px;
+		width: 480px;
+		height: 89px;
+		margin: 1px 26px 36px 84px;
+		padding-top: 30px;
+	}
+
+	.text {
+		width: 480px;
+		height: 112px;
+		margin-left: 84px;
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	.button {
+		margin-top: 38px;
+		width: 231px;
+		height: 58px;
+	}
+
+	.btn {
+		width: 231px;
+		height: 58px;
+		margin-left: 85px;
+		margin-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 340px) {
+	.tabs {
+		font-size: 0;
+		margin-top: 40px;
+	}
+
+	.tabs>div {
+		width: 288px;
+		height: 430px;
+		margin: 0px 16px;
+	}
+
+	.tabs>label {
+		width: 70px;
+		height: 40px;
+		padding: 10px 16px;
+	}
+
+	.tab1 {
+		margin-top: 41px;
+		margin-left: 16px;
+	}
+
+	.tab2 {
+		margin-top: 41px;
+	}
+
+	.tab3 {
+		margin-top: 41px;
+	}
+
+	.image-one {
+		display: none;
+	}
+
+	.title {
+		font-size: 18px;
+		line-height: 25px;
+		width: 242px;
+		height: 112px;
+		margin: 1px 23px 0px;
+		text-align: center;
+		padding: 30px;
+	}
+
+	.text {
+		width: 242px;
+		height: 180px;
+		margin-left: 23px;
+		font-size: 13px;
+		line-height: 15px;
+		text-align: center;
+	}
+
+	.button {
+		width: 224px;
+		height: 50px;
+	}
+
+	.btn {
+		width: 242px;
+		height: 50px;
+		margin-left: 23px;
+		margin-bottom: 30px;
+		transition: 0.3s;
+	}
+}
