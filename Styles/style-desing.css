@@ -118,7 +118,7 @@
 
 @media screen and (max-width: 340px) {
 	.design-mini {
-		width: 320px;
+		width: 340px;
 		height: 358px;
 		background: rgba(0, 0, 0, 0.5) url("../background/image-mini.svg");
 		background-blend-mode: darken;

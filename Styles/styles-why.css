@@ -24,7 +24,7 @@
 	border-bottom: 1px solid #EC7979;
 	width: 170px;
 	height: 0;
-	margin: 0 auto;
+	margin: auto;
 }
 
 .desc {
@@ -198,17 +198,19 @@
 
 	.separator {
 		width: 134px;
-		margin: 0 auto;
+		margin: 40px 93px 25px;
 	}
 
 	.desc {
 		font-size: 13px;
 		line-height: 15px;
 		margin: 25px 16px 50px;
+		width: 288px;
+		height: 30px;
 	}
 
 	.desc-slogan {
-		margin: 25px 16px 50px;
+		margin: 0px 16px 0px;
 	}
 
 	.content-body {
